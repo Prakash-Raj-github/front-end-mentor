@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(30, 54%, 90%);
+    flex-direction: column;
+}
+
+.container{
+    background-color: white;
+    height: 700px;
+    width: 300px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-container{
+    width: 280px;
+    height: 680px;
+}
+
+img{
+    width: 280px;
+    border-radius: 5px;
+}
+
+.name{
+    font-family: "Young Serif", serif;
+    color: hsl(24, 5%, 18%);
+    font-weight: 200;
+    font-size: medium;
+    margin: 10px 0px;
+}
+
+.description{
+    font-family: "Outfit", sans-serif;
+    font-size: 7px;
+    margin: 0;
+    text-align: justify;
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation{
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 10px 0px 10px 10px;
+}
+
+.preparation h6{
+    margin: 0px 0px 8px 0px;
+    color:  hsl(332, 51%, 32%);
+}
+
+.preparation ul{
+    margin: 0;
+    padding-left: 10px;
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation ul li::marker{
+    color:  hsl(332, 51%, 32%);
+}
+
+.preparation ul li{
+    font-size: 7px;
+}
+
+.preparation p{
+    padding-left: 10px;
+}
+
