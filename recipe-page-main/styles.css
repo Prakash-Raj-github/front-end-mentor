@@ -72,4 +72,38 @@ img{
 .preparation p{
     padding-left: 10px;
 }
+.ingredients h5{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(14, 45%, 36%);
+    margin: 10px 0px 0px 0px;
+}
+.ingredients ul{
+    padding-left: 15px;
+    font-family: "Outfit", sans-serif;
+    font-size:10px;
+    color: hsl(30, 10%, 34%);
+
+}
+.instructions h5{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(14, 45%, 36%);
+    margin: 10px 0px 0px 0px;
+}
+.instructions ol{
+    padding-left: 15px;
+    font-family: "Outfit", sans-serif;
+    font-size:10px;
+    color: hsl(30, 10%, 34%);
+
+}
+.ingredients li::marker, .instructions li::marker{
+    color: hsl(14, 45%, 36%);
+}
+.instructions li::marker{
+    padding-right: 50px;
+}
 
